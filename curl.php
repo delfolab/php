@@ -1,5 +1,7 @@
 <?php
-$target = "http://www.WebbotsSpidersScreenScrapers.com/hello_world.html";
+//simple test for using curl in php
+
+$target = "http://example.com";
 $file_handle = fopen($target,"r");
 
 while(!feof($file_handle))
